@@ -16,7 +16,7 @@ docker run -t -p 1111:1111 nix-docker-go-svc:v0.1.0
 The web service has just one endpoint at `/hello`:
 
 ```shell
-curl http://localhost:1111
+curl http://localhost:1111/hello
 ```
 
 That should output `Welcome to Go inside Docker built with Nix!`.
